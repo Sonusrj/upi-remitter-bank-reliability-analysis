@@ -1,0 +1,10 @@
+finding,check,result,verdict
+Year on year improvement (0.432% to 0.324%),S1 rounding bounds,0.427-0.437 vs 0.319-0.329,Holds
+Fix-first banks run 1.25x+ their tier rate,S1 worst case,weakest case 1.50x,Holds
+Same 6 banks in Fix first,S2 merge 3 pairs,no change,Holds
+Top 10 hold about 70% of failures,S2 merge 3 pairs,70.3% to 70.7%,Holds
+Trend unaffected by unranked entries,S3 with/without unranked,largest monthly gap 0.0052 pp,Holds
+Avoidable failures (62% at median target),S4 gentler target,"50% at 1.5x, 41% at 2x","Ceiling only, quote a range"
+Episodic label,S5 minimum rate,"9 banks, 7 with a 0.10 floor",Partly an artifact of tiny rates
+"Volume vs TD rate, national monthly",Spearman on MoM changes,"rho 0.39, p 0.065, n 23","Weak, not significant at 5%"
+"Volume vs TD rate, bank level",Spearman on MoM changes,"rho -0.01, p 0.84, n 1078",No relationship
