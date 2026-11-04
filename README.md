@@ -1,4 +1,4 @@
-# 🇮🇳 UPI Remitter Bank Reliability Analysis
+# UPI Remitter Bank Reliability Analysis
 
 **Python · MySQL · Power BI**
 
